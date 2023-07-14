@@ -1,6 +1,6 @@
 <?php
 
-require "functions.php";
+
 
 $heading = "Chronicles of the black dragon";
 

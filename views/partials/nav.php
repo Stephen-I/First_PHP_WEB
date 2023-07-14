@@ -9,10 +9,10 @@
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="<?= urlI("/") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-              <a href="/part_1.php" class="<?= $_SERVER["REQUEST_URI"] == "/part_1.php" ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 1</a>
-              <a href="/part_2.php" class="<?= $_SERVER["REQUEST_URI"] == "/part_2.php" ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 2</a>
-              <a href="/part_3.php" class="<?= $_SERVER["REQUEST_URI"] == "/part_3.php" ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 3</a>
-              <a href="/characters.php" class="<?= $_SERVER["REQUEST_URI"] == "/characters.php" ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Characters</a>
+              <a href="/part_1" class="<?= urlI("/part_1") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 1</a>
+              <a href="/part_2" class="<?= urlI("/part_2") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 2</a>
+              <a href="/part_3" class="<?= urlI("/part_3") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 3</a>
+              <a href="/characters" class="<?= urlI("/characters") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Characters</a>
             </div>
           </div>
         </div>
