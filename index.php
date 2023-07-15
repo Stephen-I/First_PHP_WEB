@@ -12,9 +12,11 @@ $config = require("config.php");
 
 $db = new Database($config["database"]);
 
-$posts = $db->query("select * from `characters`")->fetchAll();
+$id = $_GET["id"];
+
+$query = "select * from `characters` where id = ?";
+
+$posts = $db->query($query, [$id])->fetchAll();
 
 
-foreach ($posts as $post) {
-   echo "<li>" . $post["full_name"] . "</li>";
-}
+dd($posts);

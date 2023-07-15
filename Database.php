@@ -15,11 +15,11 @@ public function __construct($config, $username = "root", $password = "Animerocks
     ]);
 }
 
-public function query($query){
+public function query($query, $params = []){
 
     $statement = $this->connection->prepare($query);
 
-    $statement->execute();
+    $statement->execute($params);
 
     return $statement;
 }
