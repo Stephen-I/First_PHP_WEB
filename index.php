@@ -16,7 +16,7 @@ $id = $_GET["id"];
 
 $query = "select * from `characters` where id = ?";
 
-$posts = $db->query($query, [$id])->fetchAll();
+$posts = $db->query($query, [$id])->fetch();
 
 
 dd($posts);
