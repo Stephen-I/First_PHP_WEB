@@ -14,6 +14,7 @@
               <a href="/part_3" class="<?= urlI("/part_3") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Part 3</a>
               <a href="/characters" class="<?= urlI("/characters") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Characters</a>
               <a href="/explore" class="<?= urlI("/explore") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Explore</a>
+              <a href="/reviews" class="<?= urlI("/reviews") ? "bg-gray-900 text-white" : "text-gray-300"?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reviews</a>
             </div>
           </div>
         </div>
