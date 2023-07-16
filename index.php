@@ -2,7 +2,7 @@
 
 require "functions.php";
 
-// require "router.php";
+require "router.php";
 
 require "Database.php";
 
@@ -15,6 +15,3 @@ $id = $_GET["id"] ?? null;
 $query = "select * from `characters` where id = ?";
 
 $posts = $db->query($query, [$id])->fetch();
-
-
-dd($posts);
