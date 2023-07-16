@@ -10,7 +10,7 @@ $config = require("config.php");
 
 $db = new Database($config["database"]);
 
-$id = $_GET["id"];
+$id = $_GET["id"] ?? null;
 
 $query = "select * from `characters` where id = ?";
 
