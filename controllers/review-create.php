@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $err = [];
 
-    // $Validator = new Validator
+    // $Validator = new Validator;
 
     if(strlen(trim($_POST["body"])) == 0){
         $err["body"] = "A body is required";
