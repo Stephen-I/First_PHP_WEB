@@ -1,6 +1,6 @@
 <?php
 
-require ("Validator.php");
+// require ("Validator.php");
 
 $config = require("config.php");
 
@@ -12,13 +12,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $err = [];
 
-    $Validator = new Validator();
+    // $Validator = new Validator
 
-    if($Validator->string($_POST["body"])){
+    if(strlen(trim($_POST["body"])) == 0){
         $err["body"] = "A body is required";
     }
 
-    if(strlen($_POST["body"]) > 1000){
+    if(strlen(trim($_POST["body"])) > 1000){
         $err["body"] = "The body cannot be more than 1,000 characters";
     }
 
