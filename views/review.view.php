@@ -10,7 +10,7 @@
         <a href="/reviews" class="text-blue-700 hover:underline">Go Back...</a>
       </p>
       <p class="py-3">
-        <?= $review["body"] ?>
+        <?= htmlspecialchars($review["body"]) ?>
       </p>
     </div>
 </main>

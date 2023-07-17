@@ -1,7 +1,5 @@
 <?php
 
-$uri = parse_url($_SERVER["REQUEST_URI"])["path"];
-
 $routes = [
     "/" => "controllers/home.php",
     "/part_1" => "controllers/part_1.php",
@@ -11,7 +9,8 @@ $routes = [
     "/character" => "controllers/character.php",
     "/explore" => "controllers/explore.php",
     "/reviews" => "controllers/reviews.php",
-    "/review" => "controllers/review.php"
+    "/review" => "controllers/review.php",
+    "/review/create" => "controllers/review-create.php"
 ];
 
 function abort($code = 404) {
@@ -27,5 +26,7 @@ function routeToController($uri, $routes){
         abort();
     }
 }
+
+$uri = parse_url($_SERVER["REQUEST_URI"])["path"];
 
 routeToController($uri, $routes);
