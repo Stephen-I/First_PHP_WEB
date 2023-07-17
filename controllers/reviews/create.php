@@ -30,4 +30,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }   
 }
 
-require "views/review-create.view.php";
+require "views/reviews/create.view.php";

@@ -1,16 +1,16 @@
 <?php
 
 $routes = [
-    "/" => "controllers/home.php",
-    "/part_1" => "controllers/part_1.php",
-    "/part_2" => "controllers/part_2.php",
-    "/part_3" => "controllers/part_3.php",
-    "/characters" => "controllers/characters.php",
-    "/character" => "controllers/character.php",
-    "/explore" => "controllers/explore.php",
-    "/reviews" => "controllers/reviews.php",
-    "/review" => "controllers/review.php",
-    "/review/create" => "controllers/review-create.php"
+    "/" => "controllers/world/home.php",
+    "/part_1" => "controllers/story/part_1.php",
+    "/part_2" => "controllers/story/part_2.php",
+    "/part_3" => "controllers/story/part_3.php",
+    "/characters" => "controllers/characters/multiple.php",
+    "/character" => "controllers/characters/single.php",
+    "/explore" => "controllers/world/explore.php",
+    "/reviews" => "controllers/reviews/multiple.php",
+    "/review" => "controllers/reviews/single.php",
+    "/review/create" => "controllers/reviews/create.php"
 ];
 
 function abort($code = 404) {

@@ -8,4 +8,4 @@ $db = new Database($config["database"]);
 
 $reviews = $db->query("select * from `reviews`")->fetchAll();
 
-require "views/reviews.view.php";
+require "views/reviews/multiple.view.php";

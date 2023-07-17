@@ -4,4 +4,4 @@
 
 $heading = "Return of ages past";
 
-require "views/part_2.view.php";
+require "views/story/part_2.view.php";

@@ -4,4 +4,4 @@
 
 $heading = "Kizenthia tournament";
 
-require "views/part_3.view.php";
+require "views/story/part_3.view.php";

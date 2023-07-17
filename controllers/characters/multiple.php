@@ -10,4 +10,4 @@ $characters = $db->query("select * from `characters`")->fetchAll();
 
 
 
-require "views/characters.view.php";
+require "views/characters/characters.view.php";
