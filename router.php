@@ -8,6 +8,7 @@ $routes = [
     "/part_2" => "controllers/part_2.php",
     "/part_3" => "controllers/part_3.php",
     "/characters" => "controllers/characters.php",
+    "/character" => "controllers/character.php",
     "/explore" => "controllers/explore.php",
     "/reviews" => "controllers/reviews.php",
     "/review" => "controllers/review.php"

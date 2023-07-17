@@ -6,7 +6,13 @@
 
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <h1>Characters</h1>
+    <?php foreach ($characters as $character) : ?>
+        <li>
+          <a href="/character?id=<?= $character["id"] ?>" class="text-blue-700 hover:underline">
+            <?= $character["full_name"] ?>
+          </a>
+        </li>
+      <?php endforeach; ?>  
     </div>
 </main>
 
