@@ -9,7 +9,8 @@ $routes = [
     "/part_3" => "controllers/part_3.php",
     "/characters" => "controllers/characters.php",
     "/explore" => "controllers/explore.php",
-    "/reviews" => "controllers/reviews.php" 
+    "/reviews" => "controllers/reviews.php",
+    "/review" => "controllers/review.php"
 ];
 
 function abort($code = 404) {

@@ -2,16 +2,14 @@
 
 require "functions.php";
 
-require "router.php";
-
 require "Database.php";
 
-$config = require("config.php");
+require "router.php";
 
-$db = new Database($config["database"]);
 
-$id = $_GET["id"] ?? null;
 
-$query = "select * from `characters` where id = ?";
+// $id = $_GET["id"] ?? null;
 
-$posts = $db->query($query, [$id])->fetch();
+// $query = "select * from `characters` where id = ?";
+
+// $posts = $db->query($query, [$id])->fetch();
