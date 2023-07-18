@@ -2,4 +2,4 @@
 
 $heading = "Explore the world";
 
-require "views/world/explore.view.php";
+require views("world/explore.view.php", ["heading" => $heading]);

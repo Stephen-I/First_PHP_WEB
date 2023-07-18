@@ -2,7 +2,7 @@
 
 $heading = "Characters";
 
-$config = require("config.php");
+$config = require base_path("config.php");
 
 $db = new Database($config["database"]);
 
@@ -10,4 +10,4 @@ $characters = $db->query("select * from `characters`")->fetchAll();
 
 
 
-require "views/characters/characters.view.php";
+require views("characters/multiple.view.php", ["heading" => $heading, "characters" => $characters]);

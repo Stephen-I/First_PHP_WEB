@@ -2,4 +2,5 @@
 
 $heading = "Welcome to Kizenthia";
 
-require "views/world/home.view.php";
+require views("world/home.view.php", ["heading" => $heading]);
+
