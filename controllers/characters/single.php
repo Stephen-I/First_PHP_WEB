@@ -1,5 +1,7 @@
 <?php
 
+use core\Database;
+
 $heading = "character";
 
 $config = require base_path("config.php");

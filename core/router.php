@@ -8,7 +8,7 @@ $routes = [
     "/characters" => "../controllers/characters/multiple.php",
     "/character" => "../controllers/characters/single.php",
     "/explore" => "../controllers/world/explore.php",
-    "/reviews" => "controllers/reviews/multiple.php",
+    "/reviews" => "../controllers/reviews/multiple.php",
     "/review" => "../controllers/reviews/single.php",
     "/review/create" => "../controllers/reviews/create.php"
 ];

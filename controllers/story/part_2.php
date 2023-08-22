@@ -1,5 +1,7 @@
 <?php
 
+use core\Database;
+
 $heading = "Return of ages past";
 
 $config = require base_path("config.php");

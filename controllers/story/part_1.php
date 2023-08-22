@@ -1,5 +1,7 @@
 <?php
 
+use core\Database;
+
 $heading = "Chronicles of the black dragon";
 
 $config = require base_path("config.php");

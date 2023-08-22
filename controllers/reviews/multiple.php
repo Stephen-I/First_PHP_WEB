@@ -1,5 +1,7 @@
 <?php
 
+use core\Database;
+
 $heading = "Give us your opinion";
 
 $config = require base_path("config.php");
