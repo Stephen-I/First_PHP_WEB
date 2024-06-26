@@ -16,6 +16,8 @@
         </li>
       <?php endforeach; ?>  
     </div>
+
+    <img src="">
 </main>
 
 <?php require base_path("views/partials/footer.php") ?>
