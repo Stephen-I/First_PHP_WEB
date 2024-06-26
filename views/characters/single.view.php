@@ -10,7 +10,7 @@
       Full name: <?= $character["full_name"] ?>
       </p>
       <p class="py-1">
-      age: <?= $character["age"] ?>
+      Age: <?= $character["age"] ?>
       </p>
       <p class="py-1">
       Gender: <?= $character["gender"] ?>
@@ -26,6 +26,9 @@
       </p>
       <p class="py-1">
       Extra: <?= $character["extra"] ?>
+      </p>
+      <p class="py-1">
+      Origin of Ability: <?= $character["Origin_of_ability"] ?>
       </p>
       <p class="py-3">
       <?= $character["backstory"] ?>
