@@ -17,7 +17,7 @@
       <?php endforeach; ?>  
     </div>
 
-    <img src="">
+    <img src="" class="img-fluid" alt="...">
 </main>
 
 <?php require base_path("views/partials/footer.php") ?>
