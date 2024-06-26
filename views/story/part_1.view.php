@@ -17,7 +17,9 @@
       <?php endforeach; ?>  
     </div>
 
-    <img src="" class="img-fluid" alt="...">
+    <div>
+    <img src="images/Kizenthia.jpg" class="w-300px h-500px" alt="Map">
+    </div>
 </main>
 
 <?php require base_path("views/partials/footer.php") ?>
