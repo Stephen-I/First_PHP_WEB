@@ -7,7 +7,7 @@
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
       <h1 class="font-bold py-3">Discover the incarnate weapons of legend</h1>
-      <p>I always had a love for myths and legends abouts gods and legendary weapons and such so I decided to incorperate them into this world I created with a little spin off from the real lore based around the lore of Kizenthia</p>
+      <p>I always had a love for myths and legends abouts gods and legendary weapons and such so I decided to incorperate them into this world I created with a little spin off from the real world lore based around the lore of Kizenthia</p>
       <h2 class="font-bold py-3">Dainsleif</h2>
       <p>
         There are many iterations of the sword Dainsleif, but the main generalised idea is that it is a cursed sword that once drawn, it has a thirst that can only be quenched by blood. Using this as basis I came up with the following lore for my world. 
